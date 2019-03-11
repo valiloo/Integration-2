@@ -1,0 +1,196 @@
+.card:hover .gandalf {
+  visibility: visible;
+  filter: none;
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  color: black;
+  font-size: 25px;
+  background-color: white;
+  opacity: 0.7;
+  border: 10px solid white;
+  border-radius: 5px;
+  margin-top: 1%;
+  width: 90%;
+}
+
+.text-bis {
+  position: absolute;
+  top: 0;
+  color: black;
+  font-size: 50px;
+  width: 90%;
+  opacity: 0.7;
+  margin-top: 5%;
+}
+
+.text2 {
+  position: absolute;
+  top: 40%;
+  color: white;
+  width: 90%;
+  font-size: 75px;
+}
+
+.my_btn{
+  border-radius: 0px;
+}
+
+.my_center {
+  margin-left: 30%;
+}
+
+.text3 {
+  position: absolute;
+  top: 40%;
+  color: white;
+  width: 90%;
+  font-size: 75px;
+}
+.profile{
+  color:black;
+  text-decoration: underline;
+}
+
+.my_line {
+  text-decoration: line-through;
+  color: #fe661d;
+}
+
+.gimli {
+  color: white;
+}
+
+.card:hover .text {
+  opacity: 0;
+}
+
+.card:hover .text-bis {
+  opacity: 0;
+}
+
+.card:hover .text2 {
+  opacity: 0;
+}
+
+.card:hover .text3 {
+  opacity: 0;
+}
+
+.montant {
+  color: orange;
+}
+
+.gandalf {
+  filter: invert(0.4);
+}
+
+
+.nav-pills .nav-link.active {
+  background-color: #92999f;
+   !important
+}
+
+@media only screen and (max-width: 360px) {
+  .my_btn {
+    max-width: 100%;
+     !important
+  }
+}
+
+.nav-orange {
+  color: #fe661d;
+}
+
+.nav-bg-orange {
+  background-color: #fe661d;
+   !important
+}
+
+@font-face {
+  font-family: 'aniron-title';
+  src: url('anicm___.ttf');
+}
+
+.font-title {
+  font-family: 'aniron-title';
+}
+
+@font-face {
+  font-family: 'partybusiness';
+  src: url('partybusiness.ttf');
+}
+
+.font-text {
+  font-family: 'partybusiness';
+}
+
+@font-face {
+  font-family: 'annatar';
+  src: url('tngan.ttf');
+}
+
+.font-symboles {
+  font-family: 'annatar';
+}
+
+.nav-activated {
+  border-bottom: 5px solid
+}
+
+.rounded-circle_2{
+  border-radius: 100%; !important
+}
+
+.nav-pipe {
+  padding-top: 8px;
+}
+
+.lettrine {
+  font-family: "annatar";
+  font-size: 0.5em;
+}
+
+.custom-bg-light {
+  background-image: url('bg_light.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.custom-bg-dark {
+  background-image: url('bg_dark.png');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.custom-card {
+  border: solid 4px black;
+  margin-left: 10px;
+  border-radius: 0px;
+   !important
+}
+
+.my_links {
+  font-size: 30px;
+}
+
+.my_links_2 {
+  font-size: 40px;
+}
+
+.black-card {
+  background-color: black;
+}
+
+.size-20{
+  font-size: 20px;
+}
+
+.size-25{
+  font-size: 25px;
+}
